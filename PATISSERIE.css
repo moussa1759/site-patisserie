@@ -28,9 +28,9 @@ p.categorie {
 div.contenu {
 
     background-color: white;
-    margin: 80px 10% 80px 10%;
+    margin: 40px 8px 40px 8px;
     padding: 0px 30px 30px 30px ;
-    min-width: 350px;
+    /*min-width: 350px;*/
     box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.1);
     overflow: visible;
    
@@ -86,18 +86,18 @@ table.info {
     width:100%; 
     color: white; 
     background-color: #6C829DC0;
-    height: 80px;
+    height: 50px;
 }
 
 table.info td {
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
     vertical-align: top;
 }
 
 table.info th {
     
-    font-size: 16px;
+    font-size: 14px;
     vertical-align: bottom;
     padding: 7px;
 }              
@@ -111,7 +111,7 @@ img.info {
 }
 
 div.colonne {
-    width: 40%;
+    width: 100%;
 
 }
 
@@ -128,16 +128,11 @@ div.colonne h2 {
 div.colonne1 {
     
     display: inline-block;
-    margin-right: 10%;
+  
 
 }
 
-div.colonne2 {
-    float: right;
-    
-    
-    
-}
+
 
 div.element_gauche p {
 
@@ -189,3 +184,57 @@ table.element_droite tr {
 
     overflow: auto;
 }
+
+/* Style pour ordinateur*/
+@media only screen and (min-width: 768px) {
+    div.contenu {
+    
+            min-width: 350px;
+            margin: 80px 10% 80px 10%;
+            padding: 0px 30px 30px 30px ;
+        }  
+        
+        table.info {
+            
+            height: 80px;
+        }
+        
+        table.info td {
+            
+            font-size: 13px;
+            
+        }
+        
+        table.info th {
+            
+            font-size: 16px;
+           
+        } 
+        
+        div.colonne {
+            width: 40%;
+        
+        }
+        
+        
+        div.colonne1 {
+            
+            margin-right: 10%;
+        
+        }
+        
+        div.colonne2 {
+            float: right;
+               
+        }
+      }
+
+@media only screen and (min-width: 900px) {
+
+        div.contenu {
+        
+                margin-left: auto;
+                margin-right: auto;
+                width: 645px ;
+                
+            }  
