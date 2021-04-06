@@ -91,13 +91,13 @@ table.info {
 
 table.info td {
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     vertical-align: top;
 }
 
 table.info th {
     
-    font-size: 14px;
+    font-size: 12px;
     vertical-align: bottom;
     padding: 7px;
 }              
